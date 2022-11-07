@@ -69,7 +69,7 @@ void insert(K *p,int index,int x)
 }
 int Count(K *p)
 {
-    int x;
+    int x=0;
     while(p!=NULL)
     {
         x++;
